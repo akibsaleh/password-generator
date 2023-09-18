@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <div className="w-full max-w-xl mx-auto shadow-md rounded-lg px-4 my-8 py-10 text-orange-500 bg-gray-700 ">
-      <h1 className="text-5xl font-bold text-white text-center pb-10">Password Generator</h1>
+      <h1 className="text-3xl sm:text-5xl font-bold text-white text-center pb-10">Password Generator</h1>
       <div className="flex shadow rounded-lg overflow-hidden mb-4 px-10">
         <input
           type="text"
@@ -53,7 +53,7 @@ const App = () => {
           COPY
         </button>
       </div>
-      <div className="flex text-sm gap-x-6 justify-center">
+      <div className="flex flex-col md:flex-row text-sm gap-x-6 justify-center items-center">
         <div className="flex items-center gap-x-3">
           <input
             type="range"
